@@ -1,0 +1,26 @@
+﻿query_id,query,tipo,algoritmo,resultados,P@5,nDCG@5,irrelevantes@5
+Q1,mouse,Termo genérico / polissemia,Linear,5,1.0,0.1429,0.0
+Q1,mouse,Termo genérico / polissemia,Boolean,5,0.8,0.7234,0.2
+Q1,mouse,Termo genérico / polissemia,Vetorial,5,1.0,1.0,0.0
+Q1,mouse,Termo genérico / polissemia,BM25,5,1.0,1.0,0.0
+Q1,mouse,Termo genérico / polissemia,LSA,5,1.0,1.0,0.0
+Q2,mouse óptico sem fio,Combinação multi-termo,Linear,5,1.0,1.0,0.0
+Q2,mouse óptico sem fio,Combinação multi-termo,Boolean,5,1.0,1.0,0.0
+Q2,mouse óptico sem fio,Combinação multi-termo,Vetorial,5,1.0,0.8416,0.0
+Q2,mouse óptico sem fio,Combinação multi-termo,BM25,5,1.0,1.0,0.0
+Q2,mouse óptico sem fio,Combinação multi-termo,LSA,5,1.0,0.7447,0.0
+Q3,mouse ergonômico bluetooth 5.0,Termo raro / específico,Linear,5,1.0,1.0,0.0
+Q3,mouse ergonômico bluetooth 5.0,Termo raro / específico,Boolean,5,1.0,1.0,0.0
+Q3,mouse ergonômico bluetooth 5.0,Termo raro / específico,Vetorial,5,1.0,1.0,0.0
+Q3,mouse ergonômico bluetooth 5.0,Termo raro / específico,BM25,5,1.0,1.0,0.0
+Q3,mouse ergonômico bluetooth 5.0,Termo raro / específico,LSA,5,1.0,0.4286,0.0
+Q4,teclado AND (mecânico OR rgb) AND NOT gamer,Booleano,Linear,5,0.2,0.1461,0.8
+Q4,teclado AND (mecânico OR rgb) AND NOT gamer,Booleano,Boolean,5,1.0,1.0,0.0
+Q4,teclado AND (mecânico OR rgb) AND NOT gamer,Booleano,Vetorial,5,0.2,0.1696,0.8
+Q4,teclado AND (mecânico OR rgb) AND NOT gamer,Booleano,BM25,5,0.2,0.214,0.8
+Q4,teclado AND (mecânico OR rgb) AND NOT gamer,Booleano,LSA,5,0.0,0.0,1.0
+Q5,periférico para notebook,Semântico / sinonímia,Linear,5,1.0,1.0,0.0
+Q5,periférico para notebook,Semântico / sinonímia,Boolean,5,1.0,1.0,0.0
+Q5,periférico para notebook,Semântico / sinonímia,Vetorial,5,1.0,1.0,0.0
+Q5,periférico para notebook,Semântico / sinonímia,BM25,5,1.0,1.0,0.0
+Q5,periférico para notebook,Semântico / sinonímia,LSA,5,1.0,1.0,0.0

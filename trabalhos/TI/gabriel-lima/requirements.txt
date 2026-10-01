@@ -1,0 +1,11 @@
+# Benchmark de Modelos Clássicos de Recuperação da Informação
+# Testado com Python 3.14 no Windows 11.
+
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+nltk>=3.8
+matplotlib>=3.8
+
+# Testes
+pytest>=8.0
