@@ -1,0 +1,31 @@
+# Corpus gerado: ~12 MB, reproduzível com `python src/corpus_generator.py`
+# (a pasta data/ permanece no repositório via data/README.md)
+data/products.json
+data/qrels.json
+
+# Logs intermediários dos benchmarks
+results/_*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Testes e ferramentas
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
